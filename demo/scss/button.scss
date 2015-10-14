@@ -1,0 +1,31 @@
+// @id button
+// @name Button
+// @description Your standard form button.
+//
+// @state :hover - Highlights when hovering.
+// @state :disabled - Dims the button when disabled.
+// @state .btn-primary - Indicates button is the primary action.
+// @state .btn-smaller - A smaller button
+//
+// @markup
+//   <button class="btn btn-primary">I'm a button</button>
+//   <button class="btn btn-smaller">I'm a small button</button>
+//
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: orange;
+  color: #fff;
+}
+
+.btn-smaller {
+  padding: 3px 6px;
+  font-size: 12px;
+}
+

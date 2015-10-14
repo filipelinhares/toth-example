@@ -1,0 +1,69 @@
+//
+// @cssurl //filipelinhares.github.io/toth-example/demo/css/style.css
+//
+// @id alert
+// @name Alert
+// @description Your standard alert messages.
+//
+// @state .alert-danger - Error message.
+// @state .alert-warning - Caution message.
+// @state .alert-info - Information message.
+// @state .alert-success - Successfull message
+//
+// @markup
+//   <div class="alert alert-danger">
+//     My alert message
+//     <span class="alert-close">&times;</span>
+//   </div>
+//
+//   <div class="alert alert-warning">
+//     My alert message
+//     <span class="alert-close">&times;</span>
+//   </div>
+//
+//   <div class="alert alert-info">
+//     My alert message
+//     <span class="alert-close">&times;</span>
+//   </div>
+//
+//   <div class="alert alert-success">
+//     My alert message
+//     <span class="alert-close">&times;</span>
+//   </div>
+
+.alert {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.alert-close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;;
+  cursor: pointer;
+}
+
+.alert-danger {
+  background: #EF4836;
+  color: #fff;
+}
+
+.alert-warning {
+  background: #F7CA18;
+  color: #222;
+}
+
+.alert-info {
+  background: #3A539B;
+  color: #fff;
+}
+
+.alert-success {
+  background: #87D37C;
+  color: #222;
+}
